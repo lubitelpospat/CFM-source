@@ -1,0 +1,1 @@
+export const HOST = "https://cfm.mipt.ru:8443" //"https://cfm.mipt.ru:8443" //"http://127.0.0.1:40001";

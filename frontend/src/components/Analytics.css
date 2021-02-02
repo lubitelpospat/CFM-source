@@ -1,0 +1,38 @@
+
+tr {
+    border-bottom: 0px;
+}
+
+.smilesinputcolumn {
+    text-align: right;
+    width: 70%;
+    white-space: nowrap;
+}
+
+.smilesinputrow {
+    display: block;
+    width: 100%;
+    padding: 1%;
+}
+
+.smilessimilarityresult {
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    padding: 5%;
+
+}
+
+input {
+    width: 100%
+}
+
+button.smilessimilaritycalculatebutton{
+    padding: 7px 16px;
+}
+
+div..analytics {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}

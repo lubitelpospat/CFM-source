@@ -1,0 +1,11 @@
+.vscode
+._.DS_Store
+.DS_Store
+config.py
+source/
+frontend/nginx
+chemreprdump
+cheminf/
+__pycache__
+.__init__.py
+._requirements.txt

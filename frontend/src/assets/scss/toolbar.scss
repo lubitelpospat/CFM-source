@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+    nav.responsive-toolbar {
+        .glyphicon {
+            font-size: 20px;
+            margin: 20px;
+            align-self:flex-end;
+        }
+
+        ul {
+            display: fixed;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            padding-inline-start:0;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            
+            width: 300px;
+            left: -200px;
+            position: fixed;
+            top: 0px;
+            flex-direction: column;
+            transition: 300ms ease all;
+            li {
+                width: 100%;
+                height:60px;
+                padding-left: 10;
+                padding-right: 0;
+                list-style-type: none;
+                padding: 8px 10px;
+                
+                
+                
+            }
+
+            &.active {
+                left: 0px;
+                li {
+                    .active{
+                    background: #999;
+                    }
+                }
+            }
+
+
+            figure {
+                margin-block-start: 0;
+                margin-block-end: 0;
+                margin-inline-start:2px;
+                margin-inline-end:0px;
+                cursor: pointer;
+                position: fixed;
+                left: 20px;
+                top: 10px;
+            }
+            
+            a {
+                color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+        
+        
+            }
+            i {
+                margin-right: 5px;
+                font-size: 20px;
+            }
+
+            
+            }
+
+            
+            
+
+        }
+    
+/*
+
+        .WebsiteHeader {
+            justify-content: center;
+            justify-self: center;
+            align-self: center ;
+            margin-block-start: 0px;
+            margin-inline-start: 395px;
+        }
+        
+*/

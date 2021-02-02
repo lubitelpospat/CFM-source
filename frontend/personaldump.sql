@@ -1,0 +1,53 @@
+-- MySQL dump 10.13  Distrib 5.7.30, for Linux (x86_64)
+--
+-- Host: localhost    Database: personal
+-- ------------------------------------------------------
+-- Server version	5.7.30-0ubuntu0.18.04.1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `MAIN`
+--
+
+DROP TABLE IF EXISTS `MAIN`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `MAIN` (
+  `userId` int(11) NOT NULL AUTO_INCREMENT,
+  `userName` varchar(10) DEFAULT NULL,
+  `userPassword` varchar(64) DEFAULT NULL,
+  `email` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`userId`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `MAIN`
+--
+
+LOCK TABLES `MAIN` WRITE;
+/*!40000 ALTER TABLE `MAIN` DISABLE KEYS */;
+INSERT INTO `MAIN` VALUES (1,'alex','4899c6e1843ed46cb786784bea1ae34f1f3d8707822e402a0e1074255b5e3ca7','sizykh.ad@mipt.ru'),(2,'Liza','4899c6e1843ed46cb786784bea1ae34f1f3d8707822e402a0e1074255b5e3ca7','example@mail.ru'),(3,'Khalia','2676a34eabaa2f3fd735bb5d8bd71485373ba4c137b99866db40277913b33303','kh.murtazaliev@gmail.com'),(4,'Elma','4899c6e1843ed46cb786784bea1ae34f1f3d8707822e402a0e1074255b5e3ca7','superelma@mipt.ru'),(5,'khamur','becc5917589f586653e7db7f8dda0d0e326649a7450e4e4438e1f2ed61f82015','kh.murtazaliev@gmail.com');
+/*!40000 ALTER TABLE `MAIN` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-07-03 12:23:51
