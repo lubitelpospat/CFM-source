@@ -9,3 +9,5 @@ cheminf/
 __pycache__
 .__init__.py
 ._requirements.txt
+*.ipynb
+db/.ipynb_checkpoints/
